@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+.favourite-places-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/towerbg.png");
+    height: 100vh;
+
+    background-size: cover;
+    padding: 24px;
+}
+
+.favourite-places-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.favourite-place-card-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 15px;
+}
+
+.favourite-place-card-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.favourite-place-card-description {
+    color: #6c6b70;
+    font-family: "Roboto";
+    font-size: 13px;
+}
+
+.favourite-place-card-image {
+    width: 80px;
+    height: 100px;
+}
+
+.favourite-place-card-text-container {
+    margin-right: 15px;
+}
+</style>
+</head>
+
+<body>
+    <div class="favourite-places-bg-container">
+        <h1 class="favourite-places-heading">Food Website</h1>
+        <div class="favourite-place-card-container d-flex flex-row">
+            <div>
+                <h1 class="favourite-place-card-heading">Vegetable Staters</h1>
+                <p class="favourite-place-card-description">
+                   <p>Item Name=Panner tikka<p>
+                    <p>Cost=100<p>
+                    <p>Quantity=50 grams<p>
+                </p>
+            </div>
+            <img src="https://tse2.mm.bing.net/th?id=OIP.x_6jJlk3tTjcgwv7FvxEygHaE7&pid=Api&P=0" class="favourite-place-card-image" />
+        </div>
+        <div class="favourite-place-card-container d-flex flex-row">
+            <div>
+                <h1 class="favourite-place-card-heading">Deserts</h1>
+                <p class="favourite-place-card-description">
+                    <p>Iten Name=Cake</p>
+                    <p>Cost=250</p>
+                    <p>Quantity=1 KG</p>
+                    
+                </p>
+            </div>
+            <img src="https://tse4.mm.bing.net/th?id=OIP.JWpAP7bKVQTZpHMr7PYUOwHaE8&pid=Api&P=0" class="favourite-place-card-image" />
+        </div>
+        <div class="favourite-place-card-container d-flex flex-row">
+            <div>
+                <h1 class="favourite-place-card-heading">Rice Items</h1>
+                <p class="favourite-place-card-description">
+                    <p>Item Name=Mixed Veg Rice</p>
+                    <p>Cost=500</p>
+                    <p>Quantity=5 persons</p>
+                </p>
+            </div>
+            <img src="https://tse1.mm.bing.net/th?id=OIP.4wrRVc6j3A9vtrOafulXigHaFM&pid=Api&P=0" class="favourite-place-card-image" />
+        </div>
+        <div class="favourite-place-card-container d-flex flex-row">
+            <div>
+                <h1 class="favourite-place-card-heading">Icecreams</h1>
+                <p class="favourite-place-card-description">
+                    <p>Item Name=Icecream Sandwitch</p>
+                   <p>Cost=150</p>
+                   <p>Quantity=300gram</p>
+                </p>
+            </div>
+            <img src="https://tse1.mm.bing.net/th?id=OIP.G_UtjS80svr8GVdmgbu5SgHaEo&pid=Api&rs=1&c=1&qlt=95&w=181&h=113" class="favourite-place-card-image" />
+        </div>
+    </div>
+</body>
+
+</html>
